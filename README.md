@@ -5,7 +5,7 @@ A "Coming Soon" landing page for **Alpha Badges and Medals Pty Ltd**, built with
 ## Project structure
 
 ```
-alpha-badges-coming-soon/
+alphabadgesandmedals/
 ├── index.html              # The page markup (loads compiled CSS + JS)
 ├── package.json
 ├── tailwind.config.js      # Brand colors & fonts live here
