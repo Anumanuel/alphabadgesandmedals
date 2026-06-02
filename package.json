@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --minify",
     "build:js": "copyfiles -u 2 \"src/js/**/*.js\" dist/js",
-    "build": "npm run build:css && npm run build:js",
+    "build:assets": "copyfiles -u 2 \"src/assets/**/*\" dist/assets",
+    "build": "npm run build:css && npm run build:js && npm run build:assets",
     "watch:css": "tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch",
     "dev": "npm run build:js && npm run watch:css"
   },
