@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Optional: ignore compiled output if you prefer building on deploy.
+# dist/css/output.css
