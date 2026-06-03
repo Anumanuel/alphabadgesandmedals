@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Badges and Medals Pty Ltd | Coming Soon</title>
+    <!-- Compiled Tailwind CSS (build it with `npm run build:css`). -->
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<!--
+    Theme switch: to move from this light theme to a dark, dashboard-style
+    aesthetic later, swap `bg-brand-50 text-brand-900` below for
+    `bg-brand-900 text-brand-50`. Brand colors live in tailwind.config.js.
+-->
+<body class="bg-brand-50 text-brand-900 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-brand-gold selection:text-white">
+
+    <header class="w-full max-w-6xl mx-auto px-6 py-8 flex justify-between items-center fade-in-up">
+        <!-- Company logo (Alpha Badges & Medals). -->
+        <img src="assets/img/alpha-badges-medals.png" alt="Alpha Badges and Medals Pty Ltd" class="h-16 w-auto object-contain">
+
+        <div class="text-sm font-semibold tracking-widest uppercase text-brand-gold">
+            Website Under Construction
+        </div>
+    </header>
+
+    <main class="flex-grow flex flex-col justify-center items-center px-6 py-12">
+        <div class="max-w-4xl mx-auto text-center">
+
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-6 text-brand-900 leading-tight fade-in-up delay-100">
+                Crafting Excellence Since <span class="text-brand-gold" id="dynamic-year">1856</span>.
+            </h1>
+
+            <div class="w-24 h-1 bg-brand-gold mx-auto mb-8 fade-in-up delay-200"></div>
+
+            <p class="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed fade-in-up delay-200">
+                <strong>Alpha Badges and Medals Pty Ltd</strong> is the proud owner of 4 iconic Australian brands, two of them preceding the Federation. Our commitment to quality and our customer-focused approach is still as steadfast as it was when our journey started.
+            </p>
+
+            <div class="mt-16 fade-in-up delay-300">
+                <h3 class="text-sm uppercase tracking-widest text-gray-400 mb-8 font-semibold">Our Heritage Brands</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <!-- Logos were extracted from the supplied "Millers Logo.pdf" to assets/img/. -->
+                    <a href="https://www.stokesbadges.com.au/" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-md duration-300 flex flex-col items-center">
+                        <div class="h-20 flex items-center justify-center mb-4">
+                            <img src="assets/img/stokes-badges.png" alt="Stokes Badges logo" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="text-brand-gold font-serif text-2xl font-bold">1856</div>
+                        <div class="text-xs text-gray-500 mt-1">Established</div>
+                    </a>
+
+                    <a href="https://gamillers.com.au" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-md duration-300 flex flex-col items-center">
+                        <div class="h-20 flex items-center justify-center mb-4">
+                            <img src="assets/img/ga-millers.png" alt="GA Millers logo" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="text-brand-gold font-serif text-2xl font-bold">1900</div>
+                        <div class="text-xs text-gray-500 mt-1">Established</div>
+                    </a>
+
+                    <a href="https://perfectiongroup.com.au/" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-md duration-300 flex flex-col items-center">
+                        <div class="h-20 flex items-center justify-center mb-4">
+                            <img src="assets/img/perfection-pgi.png" alt="Perfection Group International (PGI) Badges logo" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="text-brand-gold font-serif text-2xl font-bold">1924</div>
+                        <div class="text-xs text-gray-500 mt-1">Established</div>
+                    </a>
+
+                    <a href="https://actionbadges.com.au/" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-md duration-300 flex flex-col items-center">
+                        <div class="h-20 flex items-center justify-center mb-4">
+                            <img src="assets/img/action-badges.png" alt="Action Badges logo" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="text-brand-gold font-serif text-2xl font-bold">1980</div>
+                        <div class="text-xs text-gray-500 mt-1">Established</div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="w-full max-w-6xl mx-auto px-6 py-8 text-center border-t border-gray-200 fade-in-up delay-300">
+        <p class="text-sm text-gray-500">
+            &copy; <span id="current-year"></span> Alpha Badges and Medals Pty Ltd. All rights reserved.<br>
+            Please check back soon.
+        </p>
+    </footer>
+
+    <!-- Page interactions (countdown + footer year). -->
+    <script src="js/main.js"></script>
+</body>
+</html>
