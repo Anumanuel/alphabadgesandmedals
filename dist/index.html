@@ -22,11 +22,9 @@
     <main class="flex-grow flex flex-col justify-center items-center px-6 py-12">
         <div class="max-w-4xl mx-auto text-center">
 
-            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-6 text-brand-900 leading-tight fade-in-up delay-100">
-                Crafting Excellence Since <span class="text-brand-gold" id="dynamic-year">1856</span>.
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-10 text-brand-900 leading-tight fade-in-up delay-100">
+                Crafting Excellence Since <span class="text-brand-gold border-b-4 border-brand-gold pb-2 inline-block" id="dynamic-year">1856</span>
             </h1>
-
-            <div class="w-24 h-1 bg-brand-gold mx-auto mb-8 fade-in-up delay-200"></div>
 
             <p class="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed fade-in-up delay-200">
                 <strong>Alpha Badges and Medals Pty Ltd</strong> is the proud owner of 4 iconic Australian brands, two of them preceding the Federation. Our commitment to quality and our customer-focused approach is still as steadfast as it was when our journey started.
@@ -74,11 +72,42 @@
         </div>
     </main>
 
-    <footer class="w-full max-w-6xl mx-auto px-6 py-8 text-center border-t border-gray-200 fade-in-up delay-300">
-        <p class="text-sm text-gray-500">
-            &copy; <span id="current-year"></span> Alpha Badges and Medals Pty Ltd. All rights reserved.<br>
-            Please check back soon.
-        </p>
+    <footer class="w-full bg-white border-t border-gray-200 mt-16 fade-in-up delay-300">
+        <div class="max-w-6xl mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
+
+                <div>
+                    <h4 class="text-xs uppercase tracking-widest text-brand-gold font-semibold mb-3">Location</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Unit 7, 5 Leedham Place<br>
+                        Riverwood NSW 2210<br>
+                        Australia
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-xs uppercase tracking-widest text-brand-gold font-semibold mb-3">ABN</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        ABN 43 680 283 783
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-xs uppercase tracking-widest text-brand-gold font-semibold mb-3">Contact</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        <a href="mailto:sales@badgesandmedals.com.au" class="hover:text-brand-gold transition-colors">sales@badgesandmedals.com.au</a><br>
+                        <a href="tel:+61285257699" class="hover:text-brand-gold transition-colors">02 8525 7699</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-200 mt-10 pt-6 text-center">
+                <p class="text-sm text-gray-500">
+                    &copy; <span id="current-year"></span> Alpha Badges and Medals Pty Ltd. All rights reserved.
+                </p>
+            </div>
+        </div>
     </footer>
 
     <!-- Page interactions (countdown + footer year). -->
